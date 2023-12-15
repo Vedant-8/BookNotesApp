@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f5f5; /* Light blue background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FFFF;
+    background-color: #0077cc;
+}
+
+h2 {
+    color: #004080; /* Darker blue heading color */
+}
+
+.box {
+    background: #f5f5f5; /* Light gray box background color */
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: #0077cc; /* Blue button color */
+    color: #fff; /* White button text color */
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    background: #005fa3; /* Darker blue color on hover */
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
+    background: #f0f8ff; /* AliceBlue color for book item */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

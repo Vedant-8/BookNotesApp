@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <title>Your Books</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BookNotesApp</h1>
+        <h2>Book List</h2>
+        <div class="book-list">
+            <% books.forEach(element => { %>
+                <div class="book-item">
+                    <p><strong>Title: </strong> <%= element.title %></p>
+                    <p><strong>Author: </strong> <%= element.author %></p>
+                    <p><strong>Summary: </strong><%= element.summary %></p>
+                </div>
+            <% }) %>
+        </div>
+        <form action="/add" method="post">
+            <p>Do you want to add a book?</p>
+            <label for="title">Title: </label>
+            <input type="text" id="title" name="title" autocomplete="off" required>
+            <label for="author">Author: </label>
+            <input type="text" id="author" name="author" autocomplete="off">
+            <label for="isbn">ISBN number: </label>
+            <input type="text" id="isbn" name="isbn" autocomplete="off" required>
+            <label for="summary">Summary: </label>
+            <textarea id="summary" name="summary" autocomplete="off"></textarea>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+</body>
+</html>

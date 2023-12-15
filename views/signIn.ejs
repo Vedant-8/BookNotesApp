@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BookNotesApp</h1>
+        <div class="box">
+            <h2>Sign In</h2>
+            <form action="/signIn" method="post" autocomplete="off">
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" autocomplete="off" required>
+                <br>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" autocomplete="off" required>
+                <br>
+                <button type="submit">Login</button>
+                <button><a href="/signUp">Sign Up</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

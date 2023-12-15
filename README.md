@@ -15,3 +15,6 @@ BookNotesApp is a simple web application for managing and organizing your book c
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
 - **ORM:** Sequelize
+
+<img width="1120" alt="SignUpPage" src="https://github.com/Vedant-8/BookNotesApp/assets/128027386/05bef182-df2f-4291-9fda-480bc2c4028f">
+<img width="1120" alt="BookList" src="https://github.com/Vedant-8/BookNotesApp/assets/128027386/b70ea877-2b44-4a9e-b773-0ad30913cc52">

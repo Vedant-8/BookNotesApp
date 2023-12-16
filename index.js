@@ -16,10 +16,10 @@ app.use(bodyParser.urlencoded({ extended:true }))
 app.use(express.static('public'))
 
 const db = new pg.Client({
-    user: 'postgres',
+    user: '',
     host: 'localhost',
-    database: 'BookNotesApp',
-    password: '#kul@sql0',
+    database: '',
+    password: '',
     port: 5432,
 })
 
